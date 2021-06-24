@@ -8,11 +8,11 @@ import zio.Has
 
 object ZLayersPlayground extends zio.App {
 
-    // Horizontal composition
+    // Horizontal composition - combining UserDb and Emailer Services
     val userBackendLayer: ZLayer[Any, Nothing, UserDbEnv with UserEmailerEnv] = 
         (UserDb.live ++ UserEmailer.live)
 
-    // Vertical composition
+    // Vertical composition - filling the dependency into the UserSubscription Service
     val userSubscriptionLayer: ZLayer[Any, Nothing, UserSubscriptionEnv] = 
         (UserDb.live ++ UserEmailer.live) >>> UserSubscription.live
 
