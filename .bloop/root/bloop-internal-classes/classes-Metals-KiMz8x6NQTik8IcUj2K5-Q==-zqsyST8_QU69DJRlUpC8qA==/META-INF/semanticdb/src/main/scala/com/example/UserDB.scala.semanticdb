@@ -1,0 +1,83 @@
+
+Ò'src/main/scala/com/example/UserDB.scala*$
+com/example/UserDb.
+ *UserDb€*+
+com/example/UserDb.Service#*Service€*8
+&com/example/UserDb.Service#`<init>`(). €@*<init>€*5
+$com/example/UserDb.Service#insert(). *insert€*7
+*com/example/UserDb.Service#insert().(user)*user€*(
+com/example/UserDb.live. €*live€*
+local0 *$anon€*
+local1*insert€*
+local2*user€*+
+com/example/UserDb.insert().*insert€*/
+"com/example/UserDb.insert().(user)*user€*-
+com/example/UserDB$package. *example€*7
+%com/example/UserDB$package.UserDbEnv#*	UserDbEnv€2
+ com/example/2
+ com/2
+ zio/ZIO.2
+ zio/ZIO#2
+ 
+zio/2
+ zio/ZLayer.2
+ zio/ZLayer#2
+ 
+zio/2
+ 	zio/Task.2
+ 
+zio/2
+ zio/Has.2
+ zio/Has#2
+ 
+zio/2!
+		 com/example/UserDb.2)
+
+ com/example/UserDb.Service#24
+ &com/example/UserDb.Service#`<init>`().22
+ $com/example/UserDb.Service#insert().28
+ *com/example/UserDb.Service#insert().(user)2
+ com/example/User#2
+  $zio/package.Task#2
+% )scala/Unit#2&
+ com/example/UserDb.live.2
+ zio/ZLayer#2
+ 
+scala/Any#2
+ !scala/Nothing#23
+# ,%com/example/UserDB$package.UserDbEnv#2#
+7 >zio/ZLayer.succeed().2
+0 6zio/ZLayer.2)
+C Jcom/example/UserDb.Service#2
+ local12
+  local22
+" &com/example/User#2
+. .zio/Task.apply().2
+* .	zio/Task.2'
+ scala/Predef.println(+1).2&
+U Vscala/StringContext#s().2*
+ scala/StringContext.apply().2%
+M Rcom/example/User#email.2
+H Llocal222
+ $izumi/reflect/Tag.tagFromTagMacro().2*
+ com/example/UserDb.insert().20
+ "com/example/UserDb.insert().(user)2
+ com/example/User#2
+ zio/ZIO#23
+  )%com/example/UserDB$package.UserDbEnv#2&
++ 4scala/package.Throwable#2
+6 :scala/Unit#26
+ (zio/ZIO.AccessMPartiallyApplied#apply().2 
+ zio/ZIO.accessM().2
+ zio/ZIO.22
+  $com/example/UserDb.Service#insert().2&
+ zio/Has.HasSyntax#get().2"
+ zio/Has.HasSyntax().2!
+ scala/`<:<`.refl().22
+ $izumi/reflect/Tag.tagFromTagMacro().20
+! %"com/example/UserDb.insert().(user)2%
+com/example/UserDB$package.23
+ %com/example/UserDB$package.UserDbEnv#2
+ zio/Has#2)
+ #com/example/UserDb.Service#2!
+ com/example/UserDb.PZ FA7FF5C974593F646A871CDF99329CDB

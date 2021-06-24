@@ -1,31 +1,0 @@
-
-Ø	%src/main/scala/com/example/User.scala*!
-com/example/User# ˆ*User€*.
-com/example/User#`<init>`(). €@*<init>€*2
-"com/example/User#`<init>`().(name) €*name€*4
-#com/example/User#`<init>`().(email) €*email€*&
-com/example/User#name. €*name€*(
-com/example/User#email. €*email€*%
-com/example/User#copy().*copy€*+
-com/example/User#copy().(name)*name€*-
-com/example/User#copy().(email)*email€*9
-"com/example/User#copy$default$1().*copy$default$1€*9
-"com/example/User#copy$default$2().*copy$default$2€*!
-com/example/User#_1().*_1€*!
-com/example/User#_2().*_2€* 
-com/example/User.
- *User€*'
-com/example/User.apply().*apply€*,
-com/example/User.apply().(name)*name€*.
- com/example/User.apply().(email)*email€*+
-com/example/User.unapply().*unapply€*,
- com/example/User.unapply().(x$1)*x$1€*-
-com/example/User.toString().*toString€2
- com/example/2
- com/2
- com/example/User#2*
- com/example/User#`<init>`().2"
- "scala/Predef.String#2"
-+ 1scala/Predef.String#2$
- com/example/User#name.2%
-$ )com/example/User#email.PZ 644141FDBF06646EE417C456FE61A199

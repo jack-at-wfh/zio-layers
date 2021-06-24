@@ -1,63 +1,0 @@
-
-¬%src/main/scala/com/example/Main.scala* 
-com/example/Main.
- *Main€*$
-com/example/Main.app. €*app€*
-local0*x$1€*
-local1*name€*
-local2*out€*#
-com/example/Main.run().*run€**
-com/example/Main.run().(args)*args€2
- com/example/2
- com/2"
- java/io/IOException.2"
- java/io/IOException#2
- java/io/2
- java/2
- zio/App.2
- zio/ExitCode.2
- zio/ExitCode#2
-  	zio/URIO.2(
-" &zio/PlatformSpecific#ZEnv.2
-( +zio/ZIO.2
-( +zio/ZIO#2
- 
-zio/2+
- zio/console/package.getStrLn.2-
- 'zio/console/package.putStrLn().2*
-) 0zio/console/package.Console.2
- zio/console/2
- 
-zio/2
- com/example/Main.2
- zio/App#2#
-		 	com/example/Main.app.2
-		 zio/ZIO#2*
-		 zio/console/package.Console#2"
-		 #java/io/IOException#2
-	%	 )scala/Unit#2 
-, ,zio/ZIO#flatMap().2-
- zio/console/package.putStrLn().2
- local02 
- zio/ZIO#flatMap().2+
- zio/console/package.getStrLn.2
- 
-local12
-' 'zio/ZIO#map().2-
- zio/console/package.putStrLn().2&
-% &scala/StringContext#s().2*
- scala/StringContext.apply().2
-  $local12
- 	local22
-
- local22%
- 	com/example/Main.run().2+
-
- com/example/Main.run().(args)2!
- scala/package.List#2"
- scala/Predef.String#2
- #zio/package.URIO#2(
-$ (zio/PlatformSpecific#ZEnv#2
-* 2zio/ExitCode#2!
- zio/ZIO#exitCode().2#
- com/example/Main.app.PZ 3DF82B45480838E08A5A5BB72EC212F0
