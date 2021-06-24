@@ -1,0 +1,40 @@
+
+÷)src/test/scala/com/example/MainSpec.scala*(
+com/example/MainSpec.
+ *MainSpec€*)
+com/example/MainSpec.spec().*spec€2
+ com/example/2
+ com/23
+ !%zio/test/AssertionVariants#equalTo().2!
+ zio/test/Assertion.2
+ 	zio/test/2
+ 
+zio/2/
+ '!zio/test/junit/JUnitRunnableSpec.2
+ zio/test/junit/2
+ 	zio/test/2
+ 
+zio/20
+ "zio/test/CompileVariants#assert().2'
+ zio/test/package.suite().2&
+! %zio/test/package.test().2
+ 	zio/test/2
+ 
+zio/2#
+ com/example/MainSpec.2:
+) ),zio/test/junit/JUnitRunnableSpec#`<init>`().2/
+ )!zio/test/junit/JUnitRunnableSpec#2*
+ 
+com/example/MainSpec.spec().23
+ %zio/test/DefaultRunnableSpec#suite().22
+		 $zio/test/DefaultRunnableSpec#test().20
+
+
+ "zio/test/CompileVariants#assert().2 
+
+
+ scala/Int#`+`(+4).23
+
+
+ %zio/test/AssertionVariants#equalTo().2E
+ 7zio/test/SourceLocationVariants#given_SourceLocation().PZ 52F90F1FF0D4A78A99BF9D718D816403

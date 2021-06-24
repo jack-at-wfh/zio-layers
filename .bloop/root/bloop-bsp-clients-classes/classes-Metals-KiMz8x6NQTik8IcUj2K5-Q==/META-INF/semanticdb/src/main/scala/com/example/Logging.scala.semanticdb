@@ -1,0 +1,119 @@
+
+©((src/main/scala/com/example/Logging.scala*&
+com/example/logging.
+ *logging€*,
+com/example/logging.Logging#*Logging€*.
+com/example/logging.Logging.
+ *Logging€*4
+$com/example/logging.Logging.Service#*Service€*A
+/com/example/logging.Logging.Service#`<init>`(). €@*<init>€*@
+.com/example/logging.Logging.Service#logLine(). *logLine€*A
+4com/example/logging.Logging.Service#logLine().(line)*line€*?
+(com/example/logging.Logging.LoggingLive# ˆ*LoggingLive€*E
+3com/example/logging.Logging.LoggingLive#`<init>`(). €@*<init>€*B
+2com/example/logging.Logging.LoggingLive#logLine().*logLine€*E
+8com/example/logging.Logging.LoggingLive#logLine().(line)*line€*<
+/com/example/logging.Logging.LoggingLive#copy().*copy€*>
+(com/example/logging.Logging.LoggingLive.
+ *LoggingLive€*>
+0com/example/logging.Logging.LoggingLive.apply().*apply€*B
+2com/example/logging.Logging.LoggingLive.unapply().*unapply€*C
+7com/example/logging.Logging.LoggingLive.unapply().(x$1)*x$1€*D
+3com/example/logging.Logging.LoggingLive.toString().*toString€*?
+(com/example/logging.Logging.LoggingTest# ˆ*LoggingTest€*E
+3com/example/logging.Logging.LoggingTest#`<init>`(). €@*<init>€*B
+2com/example/logging.Logging.LoggingTest#logLine().*logLine€*E
+8com/example/logging.Logging.LoggingTest#logLine().(line)*line€*<
+/com/example/logging.Logging.LoggingTest#copy().*copy€*>
+(com/example/logging.Logging.LoggingTest.
+ *LoggingTest€*>
+0com/example/logging.Logging.LoggingTest.apply().*apply€*B
+2com/example/logging.Logging.LoggingTest.unapply().*unapply€*C
+7com/example/logging.Logging.LoggingTest.unapply().(x$1)*x$1€*D
+3com/example/logging.Logging.LoggingTest.toString().*toString€*0
+#com/example/logging.Logging.live().*live€*0
+#com/example/logging.Logging.test().*test€*.
+com/example/logging.logLine().*logLine€*1
+$com/example/logging.logLine().(line)*line€2
+ com/example/2
+ com/2
+ 
+zio/2"
+ com/example/logging.2*
+ com/example/logging.Logging#2
+ zio/Has#22
+ $$com/example/logging.Logging.Service#2*
+ com/example/logging.Logging.2*
+	 com/example/logging.Logging.22
+
+
+
+ $com/example/logging.Logging.Service#2=
+ /com/example/logging.Logging.Service#`<init>`().2<
+
+ .com/example/logging.Logging.Service#logLine().2B
+ 4com/example/logging.Logging.Service#logLine().(line)2"
+ scala/Predef.String#2
+! $zio/package.UIO#2
+% )scala/Unit#26
+  (com/example/logging.Logging.LoggingLive#2A
+   3com/example/logging.Logging.LoggingLive#`<init>`().22
++ 2$com/example/logging.Logging.Service#2@
+
+ 2com/example/logging.Logging.LoggingLive#logLine().2F
+ 8com/example/logging.Logging.LoggingLive#logLine().(line)2"
+ scala/Predef.String#2
+! $zio/package.UIO#2
+% )scala/Unit#2$
+ zio/UIO.effectTotal().2
+ zio/UIO.2'
+ scala/Predef.println(+1).2F
+  $8com/example/logging.Logging.LoggingLive#logLine().(line)26
+  (com/example/logging.Logging.LoggingTest#2A
+   3com/example/logging.Logging.LoggingTest#`<init>`().22
++ 2$com/example/logging.Logging.Service#2@
+
+ 2com/example/logging.Logging.LoggingTest#logLine().2F
+ 8com/example/logging.Logging.LoggingTest#logLine().(line)2"
+ scala/Predef.String#2
+! $zio/package.UIO#2
+% )scala/Unit#2#
+ scala/Predef.`???`().21
+ #com/example/logging.Logging.live().2
+ zio/ZLayer#2
+ 
+scala/Any#2
+ !scala/Nothing#2*
+# *com/example/logging.Logging#2#
+ zio/ZLayer.succeed().2
+ zio/ZLayer.2>
+   0com/example/logging.Logging.LoggingLive.apply().26
+  (com/example/logging.Logging.LoggingLive.22
+# #$izumi/reflect/Tag.tagFromTagMacro().21
+ #com/example/logging.Logging.test().2
+ zio/ZLayer#2
+ 
+scala/Any#2
+ !scala/Nothing#2*
+# *com/example/logging.Logging#2#
+ zio/ZLayer.succeed().2
+ zio/ZLayer.2>
+   0com/example/logging.Logging.LoggingTest.apply().26
+  (com/example/logging.Logging.LoggingTest.22
+# #$izumi/reflect/Tag.tagFromTagMacro().2,
+   com/example/logging.logLine().22
+   $com/example/logging.logLine().(line)2"
+   scala/Predef.String#2
+    zio/ZIO#2*
+ !  (com/example/logging.Logging#2
+ *  1scala/Nothing#2
+ 3  7scala/Unit#26
+!! (zio/ZIO.AccessMPartiallyApplied#apply().2 
+!! zio/ZIO.accessM().2
+!! zio/ZIO.2<
+!! .com/example/logging.Logging.Service#logLine().2&
+!! zio/Has.HasSyntax#get().2"
+!! zio/Has.HasSyntax().2!
+!! scala/`<:<`.refl().22
+!! $izumi/reflect/Tag.tagFromTagMacro().22
+!! "$com/example/logging.logLine().(line)PZ 8715FFA254FF7F45CCB59A69F63A8E05
