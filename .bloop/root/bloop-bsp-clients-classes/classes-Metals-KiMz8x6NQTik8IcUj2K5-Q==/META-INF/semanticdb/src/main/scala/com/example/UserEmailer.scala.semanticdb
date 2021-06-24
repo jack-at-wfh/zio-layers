@@ -47,52 +47,52 @@ hasService€*2
 ( .scala/Predef.String#2
 1 5zio/package.Task#2
 6 :scala/Unit#2+
- com/example/UserEmailer.live.2
- zio/ZLayer#2
- 
+ com/example/UserEmailer.live.2
+ zio/ZLayer#2
+ 
 scala/Any#2
- !scala/Nothing#2=
-# 1/com/example/UserEmailer$package.UserEmailerEnv#2#
-< Czio/ZLayer.succeed().2
-5 ;zio/ZLayer.2.
-H O com/example/UserEmailer.Service#2
- local12
-  local22
-" &com/example/User#2
-( /local32"
-1 7scala/Predef.String#2
-? ?zio/Task.apply().2
-; ?	zio/Task.2'
- scala/Predef.println(+1).2&
-H Iscala/StringContext#s().2*
- scala/StringContext.apply().2
-/ 6local32%
-B Gcom/example/User#email.2
-= Alocal222
- $izumi/reflect/Tag.tagFromTagMacro().2/
- !com/example/UserEmailer.notify().25
- 'com/example/UserEmailer.notify().(user)2
- com/example/User#28
- "*com/example/UserEmailer.notify().(message)2"
-$ *scala/Predef.String#2
-- 0zio/ZIO#2=
-1 ?/com/example/UserEmailer$package.UserEmailerEnv#2&
-A Jscala/package.Throwable#2
-L Pscala/Unit#26
- (zio/ZIO.AccessMPartiallyApplied#apply().2 
- zio/ZIO.accessM().2
- zio/ZIO.2
- local427
-1 7)com/example/UserEmailer.Service#notify().2&
-- 0zio/Has.HasSyntax#get().2"
-" "zio/Has.HasSyntax().2
-" ,local42!
-0 0scala/`<:<`.refl().22
-0 0$izumi/reflect/Tag.tagFromTagMacro().25
-8 <'com/example/UserEmailer.notify().(user)28
-= D*com/example/UserEmailer.notify().(message)2*
+ !scala/Nothing#2=
+# 1/com/example/UserEmailer$package.UserEmailerEnv#2#
+< Czio/ZLayer.succeed().2
+5 ;zio/ZLayer.2.
+H O com/example/UserEmailer.Service#2
+ local12
+  local22
+" &com/example/User#2
+( /local32"
+1 7scala/Predef.String#2
+? ?zio/Task.apply().2
+; ?	zio/Task.2'
+ scala/Predef.println(+1).2&
+H Iscala/StringContext#s().2*
+ scala/StringContext.apply().2
+/ 6local32%
+B Gcom/example/User#email.2
+= Alocal222
+ $izumi/reflect/Tag.tagFromTagMacro().2/
+ !com/example/UserEmailer.notify().25
+ 'com/example/UserEmailer.notify().(user)2
+ com/example/User#28
+ "*com/example/UserEmailer.notify().(message)2"
+$ *scala/Predef.String#2
+- 0zio/ZIO#2=
+1 ?/com/example/UserEmailer$package.UserEmailerEnv#2&
+A Jscala/package.Throwable#2
+L Pscala/Unit#26
+ (zio/ZIO.AccessMPartiallyApplied#apply().2 
+ zio/ZIO.accessM().2
+ zio/ZIO.2
+ local427
+1 7)com/example/UserEmailer.Service#notify().2&
+- 0zio/Has.HasSyntax#get().2"
+" "zio/Has.HasSyntax().2
+" ,local42!
+0 0scala/`<:<`.refl().22
+0 0$izumi/reflect/Tag.tagFromTagMacro().25
+8 <'com/example/UserEmailer.notify().(user)28
+= D*com/example/UserEmailer.notify().(message)2*
  com/example/UserEmailer$package.2=
  /com/example/UserEmailer$package.UserEmailerEnv#2
  zio/Has#2.
 & - com/example/UserEmailer.Service#2&
- %com/example/UserEmailer.PZ A897C61E973DEA600D161F59E6AB97C1
+ %com/example/UserEmailer.PZ 56424650292D637FDEE67586549C6ABE
