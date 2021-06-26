@@ -1,83 +1,0 @@
-
-·2src/main/scala/com/example/ZLayersPlayground.scala*:
-com/example/ZLayersPlayground.
- *ZLayersPlayground€*K
-/com/example/ZLayersPlayground.userBackendLayer. €*userBackendLayer€*U
-4com/example/ZLayersPlayground.userSubscriptionLayer. €*userSubscriptionLayer€*3
-#com/example/ZLayersPlayground.jack. €*jack€*9
-&com/example/ZLayersPlayground.message. €*message€*E
-,com/example/ZLayersPlayground.subscribeJack. €*subscribeJack€*0
-$com/example/ZLayersPlayground.run().*run€*7
-*com/example/ZLayersPlayground.run().(args)*args€2
- com/example/2
- com/2
- zio/ZIO.2
- zio/ZIO#2
- 
-zio/2
- zio/console/2
- 
-zio/2
- 	zio/Task.2
- 
-zio/2
- zio/ZLayer.2
- zio/ZLayer#2
- 
-zio/2
- zio/Has.2
- zio/Has#2
- 
-zio/2,
- com/example/ZLayersPlayground.2
-% (zio/App#2
-! $zio/2=
- /com/example/ZLayersPlayground.userBackendLayer.2
-  zio/ZLayer#2
-! $
-scala/Any#2
-& -scala/Nothing#23
-/ 8%com/example/UserDB$package.UserDbEnv#2=
-> L/com/example/UserEmailer$package.UserEmailerEnv#2 
- zio/ZLayer#`++`().2&
- com/example/UserDb.live.2!
-	 com/example/UserDb.2+
-$ (com/example/UserEmailer.live.2&
- #com/example/UserEmailer.2*
-( (zio/Has.Union.HasHasUnion().22
-( ($izumi/reflect/Tag.tagFromTagMacro().2B
- 4com/example/ZLayersPlayground.userSubscriptionLayer.2
- %zio/ZLayer#2
-& )
-scala/Any#2
-+ 2scala/Nothing#2G
-4 G9com/example/UserSubscription$package.UserSubscriptionEnv#2!
-* -zio/ZLayer#`>>>`().2 
- zio/ZLayer#`++`().2&
- com/example/UserDb.live.2!
-	 com/example/UserDb.2+
-$ (com/example/UserEmailer.live.2&
- #com/example/UserEmailer.2*
-( (zio/Has.Union.HasHasUnion().22
-( ($izumi/reflect/Tag.tagFromTagMacro().20
-? C"com/example/UserSubscription.live.2+
-. >com/example/UserSubscription.21
- #com/example/ZLayersPlayground.jack.2'
- com/example/User.apply().2
- com/example/User.24
- &com/example/ZLayersPlayground.message.2:
- ,com/example/ZLayersPlayground.subscribeJack.2%
-9 Ezio/ZIO#provideLayer().27
-) 2)com/example/UserSubscription.subscribe().2+
- (com/example/UserSubscription.21
-3 7#com/example/ZLayersPlayground.jack.2B
-F [4com/example/ZLayersPlayground.userSubscriptionLayer.2!
-\ \scala/`<:<`.refl().2&
-\ \zio/NeedsEnv.needsEnv().2*
-\ \scala/util/NotGiven.value().22
- $com/example/ZLayersPlayground.run().28
- *com/example/ZLayersPlayground.run().(args)2!
- scala/package.List#2"
-  &scala/Predef.String#2!
- zio/ZIO#exitCode().2:
- ,com/example/ZLayersPlayground.subscribeJack.PZ F1962B84926DCD01632F573B425E14D3
