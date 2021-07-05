@@ -16,7 +16,7 @@ object ZLayersPlayground extends zio.App {
     val userSubscriptionLayer: ZLayer[Any, Nothing, UserSubscriptionEnv] = 
         (UserDb.live ++ UserEmailer.live) >>> UserSubscription.live
 
-    val jack = User("Jack", "jack@home.org")
+    val jack = User("Jack", "jack@home.org.au")
     val message = "Welcome to the world!"
     val subscribeJack = UserSubscription.subscribe(jack).provideLayer(userSubscriptionLayer)
     

@@ -7,7 +7,10 @@ import zio.Has
 
 type UserSubscriptionEnv = Has[UserSubscription.Service]
 
+
 object UserSubscription {
+    type UserSubscriptionEnv = Has[UserSubscription.Service]
+
     //Service Definition
     class Service(notifier: UserEmailer.Service, userDb: UserDb.Service) {
         def subscribe(user: User): Task[User] =

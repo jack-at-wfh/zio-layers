@@ -6,7 +6,7 @@ import zio.Task
 import zio.Has
 
 type UserDbEnv = Has[UserDb.Service]
-
+ 
 object UserDb {
     //Service Definition
     trait Service {

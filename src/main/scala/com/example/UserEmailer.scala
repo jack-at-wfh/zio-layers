@@ -6,7 +6,7 @@ import zio.ZLayer
 import zio.Has
 
 type UserEmailerEnv = Has[UserEmailer.Service]
-
+ 
 object UserEmailer {
     //Service Definition
     trait Service {
