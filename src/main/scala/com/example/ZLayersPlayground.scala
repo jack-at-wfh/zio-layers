@@ -14,7 +14,8 @@ object ZLayersPlayground extends zio.App {
 
     // Vertical composition - filling the dependency into the UserSubscription Service
     val userSubscriptionLayer: ZLayer[Any, Nothing, UserSubscriptionEnv] = 
-        (UserDb.live ++ UserEmailer.live) >>> UserSubscription.live
+        userBackendLayer >>> UserSubscription.live
+        // (UserDb.live ++ UserEmailer.live) >>> UserSubscription.live
 
     val jack = User("Jack", "jack@home.org.au")
     val message = "Welcome to the world!"
