@@ -47,3 +47,18 @@ hs_err_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,scala,sbt
 /.idea/workspace.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/libraries/sbt__dev_zio_izumi_reflect_3_2_0_8_jar.xml
+/.idea/libraries/sbt__dev_zio_izumi_reflect_thirdparty_boopickle_shaded_3_2_0_8_jar.xml
+/.idea/libraries/sbt__dev_zio_zio_3_2_0_0_RC2_jar.xml
+/.idea/libraries/sbt__dev_zio_zio_internal_macros_3_2_0_0_RC2_jar.xml
+/.idea/libraries/sbt__dev_zio_zio_stacktracer_3_2_0_0_RC2_jar.xml
+/.idea/libraries/sbt__dev_zio_zio_streams_3_2_0_0_RC2_jar.xml
+/.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_1_1_jar.xml
+/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_6_jar.xml
+/.idea/scala_compiler.xml
+/.idea/scala_settings.xml
+/.idea/vcs.xml
+/.idea/modules/ZLayerPlayground.iml
+/.idea/modules/ZLayerPlayground-build.iml
