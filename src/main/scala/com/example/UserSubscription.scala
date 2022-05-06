@@ -1,31 +1,23 @@
 package com.example
 
-import zio.ZIO
-import zio.Task
-import zio.ZLayer
-import zio.Has
+import zio.{Console, Task, UIO, URLayer, ZIO}
 
-type UserSubscriptionEnv = Has[UserSubscription.Service]
-
+trait UserSubscription {
+  def subscribe(user: User): Task[User]
+}
+type MyEnv = UserDb with UserEmailer
 
 object UserSubscription {
-    type UserSubscriptionEnv = Has[UserSubscription.Service]
-
-    //Service Definition
-    class Service(notifier: UserEmailer.Service, userDb: UserDb.Service) {
-        def subscribe(user: User): Task[User] =
-            for {
-                _ <- userDb.insert(user)
-                _ <- notifier.notify(user, s"Welcome to the world, ${user.name}! We have some nice ZIO content for you.")
-            } yield user
-    }
-
-    //Service Implementation
-    val live = ZLayer.fromServices[UserEmailer.Service, UserDb.Service, UserSubscription.Service] {
-        (userEmailer, userDb) => new Service(userEmailer, userDb)
-    }
-    
-    //Service Front-facing API
-    def subscribe(user: User): ZIO[UserSubscriptionEnv, Throwable, User] =
-        ZIO.accessM(_.get.subscribe(user))
+  def live: URLayer[MyEnv, UserSubscription] = {
+    for {
+      dbase <- ZIO.service[UserDb]
+      emailer <- ZIO.service[UserEmailer]
+    } yield UserSubscriptionLive(emailer, dbase)
+  }.toLayer
+}
+case class UserSubscriptionLive(notifier: UserEmailer, userDatabase: UserDb) extends UserSubscription {
+  def subscribe(user: User): Task[User] = for {
+    _ <- userDatabase.insert(user)
+    _ <- notifier.notify(user, s"Welcome to ZIO2.0 - ZLayer, ${user.name}!")
+  } yield user
 }

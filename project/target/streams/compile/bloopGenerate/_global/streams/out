@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[zio-layers-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zio-layers-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'zio-layers-build' to 'C:\Users\jack\workspace\zLayer\zio-layers\zio-layers\project\.bloop\zio-layers-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\zio-layers-build.json[0m
+[debug] [zio-layers-build] Classpath dependencies List()
+[debug] [zio-layers-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'zio-layers-build' to 'C:\Users\jack\workspace\zio-layers\project\.bloop\zio-layers-build.json'
+[success] Generated .bloop\zio-layers-build.json

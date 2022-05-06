@@ -1,22 +1,12 @@
-val zioVersion = "1.0.9"
+ThisBuild / version := "0.1.0-SNAPSHOT"
 
-lazy val root = project
-  .in(file("."))
+ThisBuild / scalaVersion := "3.1.1"
+
+lazy val root = (project in file("."))
   .settings(
-    inThisBuild(
-      List(
-        name := "zio-layers",
-        organization := "com.example",
-        version := "0.0.1",
-        scalaVersion := "3.0.0"
-      )
-    ),
-    libraryDependencies ++= Seq(
-      "dev.zio" %% "zio"               % zioVersion,
-      "dev.zio" %% "zio-test"          % zioVersion % Test,
-      "dev.zio" %% "zio-test-sbt"      % zioVersion % Test,
-      "dev.zio" %% "zio-test-junit"    % zioVersion % Test,
-      "dev.zio" %% "zio-test-magnolia" % zioVersion % Test
-    ),
-    testFrameworks := Seq(new TestFramework("zio.test.sbt.ZTestFramework"))
+    name := "ZLayerPlayground",
   )
+libraryDependencies ++= List(
+  Libraries.zio,
+  Libraries.zioStreams
+)

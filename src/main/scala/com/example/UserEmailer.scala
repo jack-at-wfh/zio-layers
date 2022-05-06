@@ -1,26 +1,20 @@
 package com.example
 
-import zio.ZIO
-import zio.Task
-import zio.ZLayer
-import zio.Has
+import zio.{Console, Task, UIO, URLayer, ZIO}
 
-type UserEmailerEnv = Has[UserEmailer.Service]
- 
+trait UserEmailer {
+  def notify(user: User, message: String): Task[Unit]
+}
 object UserEmailer {
-    //Service Definition
-    trait Service {
-        def notify(user: User, message: String): Task[Unit]
-    }
-
-    //Service Implementation
-    val live: ZLayer[Any, Nothing, UserEmailerEnv] = ZLayer.succeed(new Service {
-        override def notify(user: User, message: String) = Task {
-            println(s"[User Emailer] Sending '$message' to ${user.email}")
-        }
-    })
-    
-    //Service Front-facing API
-    def notify(user: User, message: String): ZIO[UserEmailerEnv, Throwable, Unit] =
-        ZIO.accessM(hasService => hasService.get.notify(user,message))
+  def live: URLayer[Console, UserEmailer] = {
+    for {
+      console <- ZIO.service[Console]
+    } yield UserEmailerLive(console)
+  }.toManagedWith(_.releaseEmailer).toLayer
+}
+case class UserEmailerLive(console: Console) extends UserEmailer {
+  def notify(user: User, message: String): Task[Unit] = console.printLine(s"[User Emailer] Sending \"$message\" to ${user.name} at ${user.email}.")
+  def releaseEmailer: UIO[Unit] = for {
+    _ <- console.printLine("Releasing user emailer resource...").orDie
+  } yield ()
 }
